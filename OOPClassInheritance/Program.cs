@@ -65,6 +65,7 @@ namespace OOPClassInheritance
             Console.WriteLine("REGISTRATION COMPLETED");
             infoDetails:
             Console.WriteLine("PLEASE PRESS 1 ON YOUR KEYBOARD TO ACCESS YOUR INFORMATION DETAILS");
+            Console.WriteLine("OR PRESS ANY KEY TO EXIT");
             bool isNumber=int.TryParse(Console.ReadLine(),out int number);
             if(!isNumber)
             {
